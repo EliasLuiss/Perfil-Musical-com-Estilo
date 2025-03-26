@@ -1,3 +1,7 @@
+body{
+    background-image: linear-gradient(to bottom gray white);
+}
+
 header{
     background-color: rgb(248, 244, 238);
 }
@@ -28,21 +32,27 @@ header{
     color: rgb(197, 79, 79);
 }
 #imgeminem{
+    border-radius: 10px;
     width: 700px;
     height:700px;
 }
 #imgeminem:hover{
-    border: 30px black;
+    border: 2px black solid;
 }
 #logoeminem{
+    border-radius: 10px;
     width: 100px;
     height: 100px;
 }
 #foto{
+
+    padding: 0, 300px, 0, 300px;
     display: flex;
     align-items:center;
     justify-content: center;
 }
+
+
 footer{
     align-items: center;
     background-color: black;
