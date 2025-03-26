@@ -1,0 +1,51 @@
+header{
+    background-color: rgb(248, 244, 238);
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+}
+#links{
+    height: 100%;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
+#links > a{
+    padding: 12px;
+    
+}
+#desafio{
+    height: 100%;
+    width: 50%;
+    align-content: center;
+}
+#cantor{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(197, 79, 79);
+}
+#imgeminem{
+    width: 700px;
+    height:700px;
+}
+#imgeminem:hover{
+    border: 30px black;
+}
+#logoeminem{
+    width: 100px;
+    height: 100px;
+}
+#foto{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+footer{
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
